@@ -1,0 +1,22 @@
+.cat-container{
+  border: 1px solid grey;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-container img{
+  width: 200px;
+  border-radius: 10px;
+  height: 200px;
+}
+.infos-container{
+margin: 10px;
+}
+button{
+  width: 100%;
+  background-color: yellowgreen;
+  border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+<h2>Formulaire d'ajout de chat</h2>
+<form (ngSubmit)="createNewCat()"#catForm="ngForm">
+  <div>
+<label for="name">Nom:</label>
+<input type="text" id="name" name="name" [(ngModel)]="newCat.name" required/>
+  </div>
+  <div>
+<label for="race">Race:</label>
+<input type="text" id="race" name="race" [(ngModel)]="newCat.race" required/>
+  </div>
+  <div>
+<label for="birth">Date de naissance :</label>
+<input type="date" id="birth" name="birth" [(ngModel)]="newCat.birth" required/>
+  </div>
+  <div>
+<label for="image">image</label>
+<input type="text" id="name" name="image" [(ngModel)]="newCat.imgCat" required/>
+  </div>
+  <input type="submit" value="Créer le chat"[ngStyle]="{backgroundColor: catForm.valid ? 'green': 'red'
+}">
+</form>
