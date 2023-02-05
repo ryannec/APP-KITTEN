@@ -1,3 +1,4 @@
+![Capture d'écran_20230205_172745](https://user-images.githubusercontent.com/102947807/216831654-a159096a-4a7d-4835-972b-09d0867fa417.png)
 # APPKITTEN
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
